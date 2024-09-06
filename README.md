@@ -70,12 +70,13 @@ ___
 
 | Command | Description |
 | ------- | ----------- |
-| `git init` | Initialize a local Git repository |
+| `git init` | Initialize a local Git repository (one-time)|
 | `git add *` | It will add all the listed files|
 | `git commit -m "[commit message]"` | Commit changes |
-|` git branch -M main` | setting branch to Main|
-| `git remote add origin ssh://git@github.com/[username]/[repository-name].git` | Add a remote repository |
+|` git branch -M main` | setting branch to Main (one-time)|
+| `git remote add origin ssh://git@github.com/[username]/[repository-name].git` | Add a remote repository (one-time) |
 |`git push -u origin main` | Pushing files to Main Branch | 
+|`git push` | push the files| 
 
 
 
